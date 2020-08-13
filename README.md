@@ -21,7 +21,7 @@
 
 <p align="center">
     	<img alt="Project language" src="https://img.shields.io/badge/Project%20Lang-Portuguese 🇧🇷-informational">
-	<a href="">
+	<a href="https://github.com/K-Schaeffer/NLW-2/blob/master/READMEen.md">
     		<img alt="Swap readme language" src="https://img.shields.io/badge/English%20ReadMe-Yes-important">
   	</a>
 
