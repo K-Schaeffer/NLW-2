@@ -52,7 +52,7 @@
 <!--About session-->
 ## 💻 About the project
 
-Project built during the **NLW #2- Next Level Week 2**, which is an Brazilian programming event hosted by [Rocketseat](https://nextlevelweek.com/episodios/discovery/1/edicao/2).
+Project built during the **NLW #2- Next Level Week 2**, which is a brazilian programming event hosted by [Rocketseat](https://nextlevelweek.com/episodios/discovery/1/edicao/2).
 The NLW is an online coding experience, with lots of practice, chalenges and tips. All the event happens during one week, after that, the content is removed from the Rocketseat website.
 
 👨‍🏫 Proffy - This project is a tribute to all brazilian teachers that had their special holiday in the week that the project was developed. Proffy is a platform that has the mission to connect teachers and students of all subjects.
@@ -180,7 +180,7 @@ The following tools where used in the project development:
 
 #### **Database**  ([Sqlite-Async](https://www.npmjs.com/package/sqlite-async))
 
-#### **Utilitários**
+#### **Useful tools**
 
 -   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**  → Extensions:  **[SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)**
 -   Layout:  **[Figma](https://www.figma.com/)**  →  **[Layout (Proffy)](https://www.figma.com/file/GHGS126t7WYjnPZdRKChJF/Proffy-Web)**
