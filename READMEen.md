@@ -35,46 +35,46 @@
 
 <!--Status session-->
 <h4 align="center"> 
-	🚧  Proffy 👨‍🏫 Concluído ✔️ 🚧
+	🚧  Proffy 👨‍🏫 Completed ✔️ 🚧
 </h4>
 
 <!-- Index session-->
 <p align="center">
- <a href="#-sobre-o-projeto">Sobre</a> •
- <a href="#-funcionalidades">Funcionalidades</a> • 
+ <a href="#-about-the-project">About</a> •
+ <a href="#-functionalities">Functionalities</a> • 
  <a href="#-layout">Layout</a> • 
  <a href="#-preview">Preview</a> • 
- <a href="#-como-executar-o-projeto">Executando</a> • 
- <a href="#-tecnologias">Tecnologias</a> • 
- <a href="#-licença">Licença</a>
+ <a href="#-running-the-project">Running Locally</a> • 
+ <a href="#-technologies">Technologies</a> • 
+ <a href="#-license">License</a>
 </p>
 
 <!--About session-->
-## 💻 Sobre o projeto
+## 💻 About the project
 
-Projeto desenvolvido durante a **NLW #2- Next Level Week 2** oferecida pela [Rocketseat](https://nextlevelweek.com/episodios/discovery/1/edicao/2).
-O NLW é uma experiência online com muito conteúdo prático, desafios e hacks onde o conteúdo fica disponível durante uma semana.
+Project built during the **NLW #2- Next Level Week 2**, which is an Brazilian programming event hosted by [Rocketseat](https://nextlevelweek.com/episodios/discovery/1/edicao/2).
+The NLW is an online coding experience, with lots of practice, chalenges and tips. All the event happens during one week, after that, the content is removed from the Rocketseat website.
 
-👨‍🏫 Proffy - O projeto surgiu com a missão de trazer uma homenagem aos educadores do Brasil, através de uma plataforma que conecta alunos e professores de diversas matérias.  Todo o desenvolvimento foi feito na semana do dia nacional dos profissionais de educação. 
-<br>A mim este projeto teve o caráter fundamental de reforçar as bases do desenvolvimento front-end, principalmente com HTML e CSS.
+👨‍🏫 Proffy - This project is a tribute to all brazilian teachers that had their special holiday in the week that the project was developed. Proffy is a platform that has the mission to connect teachers and students of all subjects.
+<br>To me, this project had a special mission in the reinforcement of the front-end development basis, specially with HTML/CSS.
 
 ---
 
 <!--Functionalities session-->
-## ⚙️ Funcionalidades
+## ⚙️ Functionalities
 
-- [x] Professores podem se cadastrar na plataforma através de um formulário no qual preenchem seus dados:
-  - [x] nome completo
-  - [x] link de uma foto
-  - [x] número de whatsapp
-  - [x] breve biografia
-  - [x] matéria que será lecionada
-  - [x] custo hora/aula
-  - [x] horários disponíveis
+- [x] Teachers can sign up with a form which they complete their data:
+  - [x] name and last name
+  - [x] photo
+  - [x] whatsapp number
+  - [x] biography
+  - [x] subject
+  - [x] cost of its hour
+  - [x] avaliable schedule
 
-- [x] Alunos podem buscar professores e:
-  - [x] filtrar por matéria, dia da semana e horário
-  - [x] entrar em contato diretamente no whatsapp de determinado professor
+- [x] Students can search for teachers and:
+  - [x] filter by subject, weekday and hour
+  - [x] get in touch directly in the teacher whatsapp number
   
 ---
 
@@ -113,60 +113,60 @@ O NLW é uma experiência online com muito conteúdo prático, desafios e hacks 
 ---
 
 <!--Running session-->
-## 🚀 Como executar o projeto
+## 🚀 Running the project locally
 
-Este projeto consiste em três partes:
+This project is divided in:
 1. [Frontend](/src/views/pages) 
 2. [Backend](/src/server.js) 
 3. [Database](/src/database) 
 
 <!--💡Obs-->
 
-### Pré-requisitos
+### Requirements
 
 * [Git](https://git-scm.com)
 * [Node.js](https://nodejs.org/en/)
 
-#### 🎲 Rodando o projeto
+#### 🎲 Running it
 
 ```bash
 
-# Clone o repositório
+# Clone this repo
 $ git clone https://github.com/K-Schaeffer/NLW-2.git
 
-# Acesse a pasta do projeto no prompt de comando
+# Access the project folder from the command prompt
 $ cd NLW-2
 
-# Instale as dependências
+# Install all dependencies
 $ npm install
 
-# Execute o script "dev"
+# Execute the "dev" script
 $ npm run dev
 
-# O projeto inciará na porta: 3000 - acesse http://localhost:3000 
+# Soon the project will start in the port: 3000 - open http://localhost:3000 
 
 ```
 
-Opcionalmente, você pode desejar ter uma base de dados limpa, para isso:
+Opcionally, you may want to have a clean database, therefore:
 
 ```bash
 
-# Delete o arquivo database.sqlite
+# Delete the database.sqlite file
 $ rm -r src/database/database.sqlite
 
-# Execute o arquivo para criação das tabelas
+# Execute the file which creates all tables
 $ node src/database/db.js
 
 ```
 
-Feito isso, basta executar o procedimento de rodar o projeto, cadastrar professores, e buscá-los ;)
+After that, just run the project, register teachers, and search for them :)
 
 ---
 
 <!--Tecnologies session-->
-## 🛠 Tecnologias
+## 🛠 Technologies
 
-As seguintes ferramentas foram usadas na construção do projeto:
+The following tools where used in the project development:
 
 #### **Front-end**  ([HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)  +  [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) + [JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript))
 
@@ -176,7 +176,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[Nunjucks](https://mozilla.github.io/nunjucks/)**
 -   **[Nodemon](https://nodemon.io)**
 
-> Veja o arquivo [package.json](./package.json)
+> See the [package.json](./package.json) file
 
 #### **Database**  ([Sqlite-Async](https://www.npmjs.com/package/sqlite-async))
 
@@ -189,11 +189,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 
 <!--License session-->
-## 📝 Licença
+## 📝 License
 
-Este projeto está sob a licença [MIT](./LICENSE).
+This project is under the [MIT](./LICENSE) license.
 
 ---
 
 <!--Bottom session-->
-<h4 align=center>Feito com ❤️ por Kauan Schaeffer 👋 <a href="https://www.linkedin.com/in/k-schaeffer/">Entre em contato :)</a></a></h4>
+<h4 align=center>Made with ❤️ by Kauan Schaeffer 👋 <a href="https://www.linkedin.com/in/k-schaeffer/">Contact me :)</a></a></h4>
