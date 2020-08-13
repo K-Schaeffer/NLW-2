@@ -19,6 +19,15 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">  
 </p>
 
+<p align="center">
+    	<img alt="Project language" src="https://img.shields.io/badge/Project%20Lang-Portuguese 🇧🇷-informational">
+	<a href="">
+    		<img alt="Swap readme language" src="https://img.shields.io/badge/English%20ReadMe-Yes-important">
+  	</a>
+
+	
+</p>
+
 <!--Banner session-->
 <h1 align="center">
     <img alt="Proffy-Banner" title="Proffy" src=".github/proffy-banner.png"/>
